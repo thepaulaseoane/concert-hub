@@ -6,6 +6,9 @@ export const Home = () => {
     <div class="page-grid">
       <Card />
       <Card />
+      <Card />
+      <Card />
+      <Card />
     </div>
   );
 };
