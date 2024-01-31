@@ -1,0 +1,36 @@
+.add-button {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 2px 2px 4px #00a3d5;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    --neon: #2dd9fe;
+    --neon-glow: #00a3d5;
+    box-shadow: 4px 2px 6px var(--neon);
+  }
+
+  &:active {
+    transform: translateY(2px);
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  .plus-sign {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-56%, -59%);
+    font-size: xx-large;
+    color: #2dd9fe;
+  }
+}
