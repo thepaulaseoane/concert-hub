@@ -1,0 +1,35 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  &__name {
+    font-size: xx-large;
+  }
+
+  &__data {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2px;
+    color: rgb(95, 95, 95);
+
+    &__date,
+    &__location {
+      display: inline-block;
+    }
+
+    &__divider {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+  }
+
+  &__price {
+    margin-left: auto;
+    font-size: large;
+  }
+}
