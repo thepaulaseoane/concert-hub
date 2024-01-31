@@ -1,0 +1,12 @@
+body {
+  background-color: grey;
+  height: 100%;
+  width: 100%;
+}
+
+.page-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px 80px;
+}
